@@ -1,0 +1,57 @@
+
+:root {
+    --primary-background-btn: rgba(124, 82, 82, 0.836);
+    --link-btn-color: #f5f2fe;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(212, 158, 158, 0.075);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-link{
+    margin: 20px;
+    border-radius: 4px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: var(--primary-background-btn);
+    color: var(--link-btn-color);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.contact-link:hover {
+background-color: var(--link-btn-color);
+color: var(--primary-background-btn);
+}
+.call-link{
+background-color: var(--link-btn-color);
+color: var(--primary-background-btn);
+}
+.call-link:hover {
+    background-color: var(--primary-background-btn);
+    color: var(--link-btn-color); 
+}
+.first-heading{
+    padding-top: 100px;
+}
+.accent-color {
+    color: rgba(0, 0, 0, 0.568);
+}
+/* .bg-light {
+    --bs-bg-opacity: 0;
+} */
+.centered {
+    text-align: center;
+}
+@media(min-width: 1024px) {
+    .bg-light {
+        --bs-bg-opacity: 0;
+    }
+}
